@@ -31,6 +31,7 @@ public class JobsController {
 	@Produces(MediaType.APPLICATION_JSON)
 	public List<JobsModel> getJobs() {
 
+		
 		return jobsRepository.findAll();
 
 	}
