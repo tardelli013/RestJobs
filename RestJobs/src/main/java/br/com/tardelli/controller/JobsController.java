@@ -21,7 +21,7 @@ import br.com.tardelli.repository.JobsRepository;
 
 @RestController
 @RequestMapping("/api/")
-public class IndexController {
+public class JobsController {
 
 	@Autowired
 	JobsRepository jobsRepository;
